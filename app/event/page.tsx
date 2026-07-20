@@ -8,6 +8,8 @@ import {
 } from "@/sanity/lib/queries";
 import { urlFor } from "@/sanity/lib/image";
 
+export const revalidate = 60;
+
 type SanityEvent = {
   _id: string;
   title?: string;

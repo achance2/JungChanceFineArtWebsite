@@ -5,6 +5,8 @@ import { client } from "@/sanity/lib/client";
 import { PAINTINGS_QUERY } from "@/sanity/lib/queries";
 import { urlFor } from "@/sanity/lib/image";
 
+export const revalidate = 60;
+
 type SanityPainting = {
   _id: string;
   title?: string;
