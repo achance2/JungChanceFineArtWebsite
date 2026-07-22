@@ -44,7 +44,7 @@ export default function EventsPageContent({
   return (
     <div className="mx-auto max-w-[1350px] px-6">
       <section>
-        <h2 className="mb-8 mt-10 text-3xl font-semibold text-[#5B5149]">
+        <h2 className="text-center md:text-left mb-8 mt-10 text-3xl font-semibold text-[#5B5149]">
           UPCOMING EVENTS
         </h2>
 
@@ -65,14 +65,14 @@ export default function EventsPageContent({
             ))}
           </div>
         ) : (
-          <p className="text-lg text-[#9c8f8f] font-semibold">
+          <p className="text-center md:text-left text-lg text-[#9c8f8f] font-semibold">
             No upcoming events at this time.
           </p>
         )}
       </section>
 
       <section className="mt-10">
-        <h2 className="text-left text-3xl font-semibold text-[#5B5149]">
+        <h2 className="text-center md:text-left text-3xl font-semibold text-[#5B5149]">
           PAST EVENTS
         </h2>
 
@@ -107,7 +107,7 @@ export default function EventsPageContent({
       </section>
 
       <section className="mb-40 mt-15">
-        <h2 className="mb-8 text-3xl font-semibold text-[#5B5149]">
+        <h2 className="text-center md:text-left mb-8 text-3xl font-semibold text-[#5B5149]">
           GALLERIES
         </h2>
 

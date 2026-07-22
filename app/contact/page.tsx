@@ -6,9 +6,9 @@ export default function ContactPage() {
     <main>
       <Navbar />
 
-      <section className="px-10 py-20">
+      <section>
         <div className="mx-auto max-w-[1300px]">
-          <h1 className="mt-30 mb-10 text-3xl font-semibold text-[#5B5149]">
+          <h1 className="text-center md:text-left mt-20 mb-10 text-3xl font-semibold text-[#5B5149]">
             CONTACT
           </h1>
 

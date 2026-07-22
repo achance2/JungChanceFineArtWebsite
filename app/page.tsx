@@ -34,7 +34,7 @@ export default async function Home() {
       <Navbar />
 
       <section>
-        <div className="mx-auto max-w-[1350px] px-6 pb-40 pt-60">
+        <div className="mx-auto max-w-[1350px] px-6 pb-40 pt-8 md:pt-20">
           <PaintingGallery paintings={paintings} />
         </div>
       </section>

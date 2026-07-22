@@ -9,10 +9,10 @@ export default function AboutPage() {
     <main>
       <Navbar />
 
-      <section className="px-10 py-15">
+      <section>
         <div className="mx-auto max-w-[1300px]">
-          <div className="text-left">
-            <h1 className="py-35 -mb-25 text-3xl font-semibold text-[#5B5149]">
+          <div className="text-center md:text-left">
+            <h1 className="pt-20 pb-10 text-3xl font-semibold text-[#5B5149]">
               ABOUT THE ARTIST <br />
             </h1>
 

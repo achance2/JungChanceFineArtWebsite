@@ -70,13 +70,15 @@ export default async function EventsPage() {
   }));
 
   return (
-    <main className="pt-40">
+    <main>
       <Navbar />
 
-      <EventsPageContent
-        events={events}
-        galleries={galleries}
-      />
+      <div className="pt-10">
+        <EventsPageContent
+          events={events}
+          galleries={galleries}
+        />
+      </div>
 
       <Footer />
     </main>
