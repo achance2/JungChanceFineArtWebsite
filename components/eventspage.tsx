@@ -86,8 +86,14 @@ export default function EventsPageContent({
             {showPastEvents ? "Hide Archive" : "View Archive"}
           </button>
         </div>
-
-        {showPastEvents && (
+        
+        <div
+          className={`overflow-hidden transition-all duration-600 ease-in-out ${
+            showPastEvents
+              ? "max-h-[4000px] translate-y-0 opacity-100"
+              : "max-h-0 -translate-y-3 opacity-0"
+          }`}
+        >
           <div className="mt-8 grid grid-cols-1 gap-8 md:grid-cols-2">
             {pastEvents.map((event) => (
               <EventCard
@@ -103,7 +109,7 @@ export default function EventsPageContent({
               />
             ))}
           </div>
-        )}
+        </div>
       </section>
 
       <section className="mb-40 mt-15">
