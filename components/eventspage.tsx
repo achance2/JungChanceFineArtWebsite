@@ -88,7 +88,7 @@ export default function EventsPageContent({
         </div>
         
         <div
-          className={`overflow-hidden transition-all duration-600 ease-in-out ${
+          className={`overflow-hidden transition-all duration-750 ease-in-out ${
             showPastEvents
               ? "max-h-[4000px] translate-y-0 opacity-100"
               : "max-h-0 -translate-y-3 opacity-0"
