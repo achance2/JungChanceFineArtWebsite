@@ -13,7 +13,7 @@ export default function Navbar() {
 
         <div className="flex flex-col items-center pt-4 md:hidden">
           <div
-            className={`grid w-full transition-all duration-800 ease-in-out ${
+            className={`grid w-full transition-all duration-750 ease-in-out ${
               menuOpen
                 ? "grid-rows-[1fr] opacity-100"
                 : "grid-rows-[0fr] opacity-0"
