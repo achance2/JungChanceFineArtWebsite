@@ -55,7 +55,7 @@ export default function AboutPage() {
             <div className="mb-20 space-y-14">
               {awardsByYear.map((yearGroup) => (
                 <section key={yearGroup.year}>
-                  <h3 className="mb-6 text-2xl font-bold text-[#5f5555]">
+                  <h3 className="mb-6 text-2xl font-bold border-b border-[#5B5149] w-15 text-[#5f5555]">
                     {yearGroup.year}
                   </h3>
 

@@ -11,20 +11,24 @@ export default function AwardCard({
   paintings,
 }: AwardProps) {
     return(
-        <article className = "border border-[#d8d0c8] bg-white p-6">
+        <article className = "flex gap-x-2 text-lg text-[#5f5555]">
             {award && (
-                <p className="mt-lg text-lg font-medium text-[#5f5555]">
-                {award}
-                </p>
+                <>
+                <span>{award}</span>
+                <span>·</span>
+                </>
             )}
 
-            <p className="mt-2 text-lg text-[#5f5555]">
-                {event} · {location}
-            </p>
+            <span>{event}</span>
+            <span>·</span>
+            <span>{location}</span>
 
-            <p className="mt-2 text-lg italic text-[#5f5555]">
-                {paintings.join(", ")}
-            </p>
-        </article>
+            {paintings.length > 0 && (
+                <>
+                <span>·</span>
+                <span className="italic font-semibold">{paintings.join(", ")}</span>
+                </>
+            )}
+            </article>
     );
 }
