@@ -8,10 +8,10 @@ export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-      <nav className="top-8 md:pt-20 md:px-7">
+      <nav className="top-8 md:pt-2 xl:pt-20 xl:px-7">
         {/* navbar for mobile */}
 
-        <div className="flex flex-col items-center pt-4 md:hidden">
+        <div className="flex flex-col items-center pt-4 xl:hidden">
           <div
             className={`grid w-full transition-all duration-750 ease-in-out ${
               menuOpen
@@ -49,7 +49,7 @@ export default function Navbar() {
         </div>
 
         {/* navbar for desktop */}
-        <div className="mx-auto hidden w-full max-w-[1300px] items-center justify-between md:flex">
+        <div className="mx-auto hidden w-full max-w-[1300px] items-center justify-between xl:flex">
           <Link href="/" className={`${loveAmour.className} text-7xl text-[#5B5149]`}>
             Jung Chance
           </Link>
