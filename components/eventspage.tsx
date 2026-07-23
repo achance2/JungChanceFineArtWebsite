@@ -42,7 +42,7 @@ export default function EventsPageContent({
   const pastEvents = events.filter((event) => event.past);
 
   return (
-    <div className="mx-auto max-w-[1350px] px-6">
+    <div className="mx-auto max-w-[1350px] px-6 md:px-7 xl:px-6">
       <section>
         <h2 className="text-center md:text-left mb-8 mt-10 text-3xl font-semibold text-[#5B5149]">
           UPCOMING EVENTS

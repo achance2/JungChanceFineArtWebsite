@@ -11,7 +11,7 @@ export default function AboutPage() {
 
       <section>
         <div className="mx-auto max-w-[1300px]">
-          <div className="text-center md:text-left px-5 md:px-0">
+          <div className="text-center md:text-left px-5 md:px-7 xl:px-0">
             <h1 className="pt-20 pb-10 text-3xl font-semibold text-[#5B5149]">
               ABOUT THE ARTIST <br />
             </h1>

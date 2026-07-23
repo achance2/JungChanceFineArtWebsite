@@ -8,7 +8,7 @@ export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-      <nav className="top-8 md:pt-20">
+      <nav className="top-8 md:pt-20 md:px-7">
         {/* navbar for mobile */}
 
         <div className="flex flex-col items-center pt-4 md:hidden">
