@@ -7,7 +7,7 @@ export default function ContactPage() {
       <Navbar />
 
       <section>
-        <div className="mx-auto max-w-[1300px]">
+        <div className="mx-auto max-w-[1300px] md:px-0 px-5">
           <h1 className="text-center md:text-left mt-20 mb-10 text-3xl font-semibold text-[#5B5149]">
             CONTACT
           </h1>

@@ -11,7 +11,7 @@ export default function AboutPage() {
 
       <section>
         <div className="mx-auto max-w-[1300px]">
-          <div className="text-center md:text-left">
+          <div className="text-center md:text-left px-5 md:px-0">
             <h1 className="pt-20 pb-10 text-3xl font-semibold text-[#5B5149]">
               ABOUT THE ARTIST <br />
             </h1>
@@ -48,7 +48,7 @@ export default function AboutPage() {
               Thanks for stopping by my website!
             </p>
 
-            <h2 className="text-left py-10 text-3xl font-semibold border-t text-[#5B5149]">
+            <h2 className="text-center md:text-left py-10 text-2xl md:text-3xl font-semibold border-t pt-10 text-[#5B5149]">
               MAJOR AWARDS, SHOWS, AND EXHIBITIONS
             </h2>
 
